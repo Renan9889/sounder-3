@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sonder</title>
+    <link rel="stylesheet" href="sonder.css" />
+  </head>
+  <body>
+    <div id="pagina-principal">
+      <header id="cabecalho">
+        <!--logo-->
+
+        <img src="https://github.com/ronan-X/calculator-/assets/142173292/ff9c7736-95d1-40cb-8e77-aad89dfc35a9" id="sonder-logo" alt="" />
+
+        <!--Menu-->
+        <a href=#pagina-principal class="menu" id="bem-vindo">Bem-vindo</a>
+        <a href="" class="menu" id="catalogo">Catalogo</a>
+        <a href="" class="menu" id="acessorios">Acessorios</a>
+        <a href="" class="menu" id="sobre-nos">Sobre-nos</a>
+
+        <!--Lupa-->
+
+        <button href="" id="pesquisar-img-div" onclick="abriraba()">
+          <img
+            src="https://github.com/ronan-X/calculator-/assets/142173292/d910ab3f-68ef-4080-8880-3532b772d6d4"
+            alt=""
+            onclick="pesquisar()"
+            id="pesquisar-img"
+          />
+        </button>
+
+        <!--pesquisar aba-->
+
+        <input
+          type="text"
+          name=""
+          id="pesquisar-aba"
+          class="pesquisar-aba-tudo"
+          placeholder="Pesquisar ..."
+        />
+
+        <img
+          src="https://github.com/ronan-X/calculator-/assets/142173292/626122e2-d8ff-4914-b92d-f3fb420e374c"
+          alt=""
+          id="lupa-preta"
+          class="pesquisar-aba-tudo"
+        />
+
+        <a onclick="fecharaba()" id="fechar-aba">
+          <img
+            src="https://github.com/ronan-X/calculator-/assets/142173292/e1e2aa69-66a8-40af-998d-0eecaf950217"
+            alt=""
+            id="fechar-aba-img"
+            class="pesquisar-aba-tudo"
+          />
+        </a>
+
+        <!--Login-->
+        <a href="#" id="login"
+          ><img src="https://github.com/ronan-X/calculator-/assets/142173292/e061eca8-fad0-4a7b-ac9a-a8598e64ab6e" alt="" id="login-img"
+        /></a>
+      </header>
+
+      <!--Conteudo principal-->
+
+      <!--Conheça o nosso novo lançamento-->
+      <h1 id="text-main">
+        Conheça nosso <br />
+        novo lançamento
+      </h1>
+
+      <!--Botao comprar agora!-->
+      <a href="#" id="botao-comprar">Comprar agora!</a>
+
+      <!--lançamento frente-->
+      <div id="foto-lancamento">
+        <div id="frente">
+          <img id="frente-img" src="camisa-frente.webp" alt="" />
+        </div>
+
+        <div id="atras">
+          <img id="atras-img" src="7 (1).webp" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Produto Popular -->
+    <div id="produto-popular">
+      <h3 id="nome-camisa-popular">Nome da camisa</h3>
+      <h6 id="descricao-produto-popular">
+        Se você está procurando uma camisa <br />
+        que seja tanto confortável quanto <br />
+        elegante, temos exatamente o que <br />
+        você precisa! Nossa nova linha de <br />
+        camisas combina o melhor do design <br />
+        moderno com a qualidade de tecidos <br />
+        premium, criando uma peça que pode <br />
+        ser usada em qualquer ocasião.
+      </h6>
+
+      <img
+        src="https://github.com/ronan-X/calculator-/assets/142173292/af4154ac-c83c-4ac8-9a46-0125604fb82e"
+        alt=""
+        id="camisa-popular-imagem"
+      />
+
+      <div id="selecao-camisa-popular">
+        <button href="" id="botao-camisa1" onclick="botaocamisa1()">
+          <img
+            src="https://github.com/ronan-X/calculator-/assets/142173292/af4154ac-c83c-4ac8-9a46-0125604fb82e"
+            alt=""
+            id="camisa-popular-imagem-verde"
+          />
+        </button>
+
+        <button href="" id="botao-camisa2" onclick="botaocamisa2()">
+          <img
+            src="https://github.com/ronan-X/calculator-/assets/142173292/67e65ce3-d235-4adc-88e5-a8b1d79b9d34"
+            alt=""
+            id="camisa-popular-imagem-branca"
+          />
+        </button>
+
+        <button href="#" id="botao-camisa3" onclick="botaocamisa3()">
+          <img
+            src="https://github.com/ronan-X/calculator-/assets/142173292/3dd1fb89-1e6a-4ef7-a244-4adc02782d45"
+            alt=""
+            id="camisa-popular-imagem-azul"
+          />
+        </button>
+      </div>
+
+      <h3 id="preco-popular">R$100,00</h3>
+      <div id="tamanho-popular-div">
+        <form action="#">
+          <label for="" id="titulo-tamanho-popular">Tamanho:</label>
+          <select name="" id="select-tamanho-popular">
+            <option value="" class="option-popular">P</option>
+            <option value="" class="option-popular">M</option>
+            <option value="" class="option-popular">G</option>
+            <option value="" class="option-popular">GG</option>
+          </select>
+        </form>
+      </div>
+
+      <input type="button" value="Comprar agora !" id="comprar-agora-popular" />
+      <a href="" id="carrinho-de-compra-popular"
+        ><img
+          src="https://github.com/ronan-X/calculator-/assets/142173292/b86dbeeb-0d7d-45b5-9b62-0ad1afbd7a85"
+          alt=""
+          id="carrinho-de-comprar-popular-img"
+      /></a>
+    </div>
+
+    <!-- drops -->
+    <div id="pagina-drop">
+      <h1 id="titulo-colecao">Coleção</h1>
+      <div id="todossdrops">
+        <div id="div-drop1" onmouseover="drop1()">
+          <div id="descricao-drop1"><h1 id="drop1">Drop1</h1></div>
+        </div>
+
+        <div class="div-drop2" class="drop23">
+          
+          <div id="descricao-drop2"><h1 id="drop2">Drop2</h1></div>
+        </div>
+        <div class="div-drop3" class="drop23">
+          <div id="descricao-drop3"><h1 id="drop3">Drop3</h1></div>
+        </div>
+      </div>
+
+
+  
+
+    </div>
+
+    <div id="div-acessorio">
+      <h1 id="titulo-acessorios">Acessórios</h1>
+      
+      <div id="acessorio1" class="acessorios">
+        <h6  id="descricao-acessorio1" class="descricao-acessorio">Descrição do produto</h6>
+      </div>
+      <div id="acessorio2" class="acessorios">
+        <h6  id="descricao-acessorio2" class="descricao-acessorio" >Descrição do produto</h6>
+      </div>
+      <div id="acessorio3" class="acessorios">
+        <h6  id="descricao-acessorio3"  class="descricao-acessorio">Descrição do produto</h6>
+      </div>
+
+      <a href="" id="acessorio-ver-tudo">Ver tudo</a>
+    </div>
+  </body>
+  <script src="sonder.js"></script>
+</html>
+
+
